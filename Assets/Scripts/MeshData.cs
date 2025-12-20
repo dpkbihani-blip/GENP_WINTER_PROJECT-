@@ -15,14 +15,14 @@ public class MeshData //Class to hold mesh data
     public MeshData waterMesh;
     private bool isMainMesh = true;
 
-    /*public MeshData(bool isMainMesh = true)
+    public MeshData(bool isMainMesh = true)
     {
         
         if (isMainMesh)
         {
             waterMesh = new MeshData(false);
         }
-    }*/
+    }
 
     public void AddVertex(Vector3 vertex, bool vertexGeneratesCollider)
     {

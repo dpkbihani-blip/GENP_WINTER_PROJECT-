@@ -11,7 +11,7 @@ public class ChunkData
     public World worldReference; //DIfferent worlds can have different chunk data ex : overworld , nether, end
     public Vector3Int worldPosition; //Position of chunk in world space
 
-    public bool modifiedbyThePlayer = false;
+    public bool modifiedByThePlayer = false;
 
     public ChunkData(int chunkSize, int chunkHeight, World worldReference, Vector3Int worldPosition) //Constructor initializing chunk data
     {
